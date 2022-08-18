@@ -237,6 +237,9 @@ footer {
     margin-left: 0px;
     position: relative;
 }
+#contact {
+    color: white;
+}
 /* FIN FOOTER */
 /* Version tablette */
 @media only screen and (min-width: 768px) {

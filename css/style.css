@@ -193,8 +193,8 @@ body h1, h2, h3 {
     color: white;
     background-color: #9356DC;
 }
-.fa-solid {
-    font-size: 30px;
+.fas {
+    font-size: 25px;
 }
 /* FIN SECTION FONCTIONNEMENT */
 /* DEBUT SECTION RESTAURAUNT */
@@ -225,7 +225,10 @@ a:any-link {
     display: flex;
     flex-direction: column;
 }
-
+.resto-image {
+    position: relative;
+    text-align: center;
+}
 .card-resto img {
     width: 100%;
     height: 250px;
@@ -233,6 +236,15 @@ a:any-link {
     filter: contrast(100%);
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
+}
+nav .nouveau {
+    position: absolute;
+    top: 16px;
+    right: 16px;
+    padding: 10px 20px;
+    font-size: 20px;
+    color: green;
+    background-color: #99E2D0;
 }
 .nom-plat {
     display: flex;
@@ -275,24 +287,24 @@ footer {
     background-color: #4a4a4a;
 }
 .footer-container {
-    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    padding: 30px 20px;
 }
 .footer-container img {
-    width: 50%;
-    margin-bottom: 20px;
+    width: 30%;
+    margin-bottom: 10px;
     filter: brightness(0) invert(1);
 }
 #proposition-icon {
-    margin-right: 35px;
+    margin-right: 15px;
     margin-left: 0px;
-    
+    position: relative;
 }
 #partenaire-icon {
-    margin-right: 25px;
+    margin-right: 10px;
     margin-left: 0px;
-}
-#fa-proposition, #fa-partenaire {
-    font-size: 15px;
+    position: relative;
 }
 #contact {
     color: white;
