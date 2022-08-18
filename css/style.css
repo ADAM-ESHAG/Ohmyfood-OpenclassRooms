@@ -327,14 +327,9 @@ footer {
     .card {
         margin: 50px 15%;
     }
-    footer {
-        display: flex;
-        justify-content: center;
-    }
     .footer-container {
-        padding-top: 5%;
-        padding-bottom: 5%;
-        padding-left: 0;
+        align-items: center;
+        align-content: center;
     }
 }
 
@@ -371,13 +366,8 @@ footer {
         margin: 10px;
     }
     /* Footer */
-    footer {
-        display: flex;
-        justify-content: center;
-    }
     .footer-container {
-        padding-top: 5%;
-        padding-bottom: 5%;
-        padding-left: 0;
+        align-items: center;
+        align-content: center;
     }
 }
