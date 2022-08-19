@@ -258,26 +258,26 @@ nav .nouveau {
 /* heart checkboxes */
 .restaurants__figcaption__like {
   position: relative;
-  width: 2rem;
+  width: 1rem;
   margin: 0 10px 0 0;
   cursor: pointer;
   padding-top: 5%;
 }
 
 .restaurants__figcaption__like__emptyheart {
-  width: 3rem;
+  width: 2rem;
   position: absolute;
 }
 
 .restaurants__figcaption__like__fullheart {
-  width: 3rem;
+  width: 2rem;
   position: absolute;
   opacity: 0;
 }
 
 .restaurants__figcaption__like__fullheart:hover {
-  opacity: 1;
-  transition: 400ms ease-in-out;
+    opacity: 1;
+    transition: 400ms ease-in-out;
 }
 /* FIN SECTION RESTAURANT */
 /* FIN MAIN */
