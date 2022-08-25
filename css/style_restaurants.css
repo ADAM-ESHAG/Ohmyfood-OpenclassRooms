@@ -269,11 +269,7 @@ footer {
 }
 /* Version disktop */
 @media only screen and (min-width: 1025px) {
-    .arrow-left {
-        width: auto;
-        height: auto;
-        display: none;
-    }
+    
     .image-restaurant img {
         height: 500px;
         object-fit: cover;
